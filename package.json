@@ -1,0 +1,30 @@
+{
+  "name": "navodaya-alumni-meet-2025",
+  "version": "1.0.0",
+  "description": "नवोत्सव-2025 UP STATE NAVODAYA ALUMNI OPEN MEET - Responsive Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "navodaya",
+    "alumni",
+    "meet",
+    "2025",
+    "lucknow",
+    "responsive",
+    "website"
+  ],
+  "author": "Paramhans Pal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paramp1031/navodaya_alumni_meet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paramp1031/navodaya_alumni_meet/issues"
+  },
+  "homepage": "https://navodaya-alumni-meet-2025.vercel.app"
+}
