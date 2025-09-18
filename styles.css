@@ -619,9 +619,9 @@ body {
 }
 
 .contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-form {
@@ -874,10 +874,13 @@ body {
   }
 
   .about-content,
-  .details-content,
-  .contact-content {
+  .details-content {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+  
+  .contact-content {
+    flex-direction: column;
   }
 
   .timeline::before {
